@@ -11,129 +11,181 @@
     <link rel="stylesheet" href="../css/main.css">
   <body>
 
-    <!-- Navbar-->
-    <div class="row">
-      <div class="col">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="index.html">Logo</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a id="home"class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-              </li>
-            </ul>
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <i id="cart"class="fas fa-shopping-cart"></i>
-                  <span id="counter" class="badge badge-info">0</span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a id="search"class="nav-link btn btn-success" href="views/search.html">Search</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
+    <!-- Navbar -->
+    <nav id="nav" class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Logo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav text-faded">
+            <li class="nav-item active">
+              <a id="home" class="nav-link" href="index.html">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item links">
+              <a id="living" class="nav-link " href="views/espacio.html">Living Room</a>
+            </li>
+            <li class="nav-item links">
+              <a id="bedroom" class="nav-link " href="views/espacio.html">Bedroom</a>
+            </li>
+            <li class="nav-item links">
+              <a id="dinning"class="nav-link " href="views/espacio.html">Dinning Room</a>
+            </li>
+            <li class="nav-item links">
+              <a id="outdoor"class="nav-link " href="views/espacio.html">Outdoors</a>
+            </li>
+            <li class="nav-item links">
+              <a id="studio"class="nav-link " href="views/espacio.html">Studio</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i id="cart" class="fas fa-shopping-cart"></i>
+                <span id="counter" class="badge badge-info">0</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a id="search" class="nav-link btn btn-success" href="views/search.html">Search</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-
-    <div class="row">
-      <div class="col">
-        <h1 id="title">Sala</h1>
-        <img id="sala"src="../assets/images/sala.png" alt="">
-      </div>
-    </div>
+    </nav>
 
     <!--Tips-->
     <div class="row nopadding mt-5 mb-5">
         <div class="col nopadding mt-3">
           <div class="blog-cont">
-            <h1 class="mb-3">Blog</h1>
-            <h5>Are you looking for ideas? Check out our blog entries!</h5>
-            <div class="row nopadding mt-5">
+            <h2>Basic tips to decorate your living room</h2>
+            <div class="row nopadding mt-5 p-1">
               <div class="tips col">
-                <img class="card-img-top blog-img" src="assets/images/rug2b.jpg" alt="Card image cap">
+                <img class="card-img-top blog-img" src="../assets/images/fc.jpg" alt="Card image cap">
                 <div class="card-body">
-                  <h5 class="card-title">Learn how to make your bedroom look bigger</h5>
-                  <p class="card-text">If you have a small bedroom, you’re not alone – it’s one of the most common bedroom decorating issues. You have to remodel to add actual square footage, but luckily, there are decorating tricks to fool the eye into seeing your bedroom as larger than it actually is. </p>
+                  <h4 class="card-title"> Arrange Furniture for Conversation</h4>
+                  <p class="card-text">Living rooms are gathering spaces, so use furniture arrangement to promote conversation and interaction. Pull seating pieces away from the walls and arrange them to face each other.</p>
                   <a href="#" class="btn btn-primary button">Learn More</a>
                 </div>
               </div>
               <div class="tips col">
-                <img class="card-img-top blog-img" src="assets/images/lampara-3a.jpg" alt="Card image cap">
+                <img class="card-img-top blog-img" src="../assets/images/fl.jpg" alt="Card image cap">
                 <div class="card-body">
-                  <h5 class="card-title">Learn how  to choose lighting for a room</h5>
-                  <p class="card-text">Choosing the lighting fixtures for the house is one of the details you need to plan when decorating a new space. But the decision is not easy, not even if you're planning a simple makeover or renovation. But you have to be organized and to to take things one by one, room by room.</p>
+                  <h4 class="card-title">Plan for Inviting Lighting</h4>
+                  <p class="card-text">Lighting in the living room should be geared toward creating a relaxed, comfortable mood. Aim for layers of light, and position light sources so they form roughly a triangle to ensure good distribution of illumination.</p>
                   <a href="#" class="btn btn-primary button">Learn More</a>
                 </div>
               </div>
               <div class="tips col">
-                <img class="card-img-top blog-img" src="assets/images/square.jpg" alt="Card image cap">
+                <img class="card-img-top blog-img" src="../assets/images/fp.jpg" alt="Card image cap">
                 <div class="card-body">
-                  <h5 class="card-title">Check out how to give personality to your office </h5>
-                  <p class="card-text">Whether you're setting up a new office space or trying to breathe life into an existing office, we've come up with eight important things to consider.</p>
+                  <h4 class="card-title">Create a Focal Point</h4>
+                  <p class="card-text">A focal point anchors the living room and helps draw you into the space. A fireplace is a natural focal point, symbolizing hearth and home, but in most living spaces, the television is the true center of attention. To keep them from competing, pair them up. </p>
                   <a href="#" class="btn btn-primary button">Learn More</a>
                 </div>
               </div>
             </div>
+            <button class="btn">Want to see more tips?</button>
           </div>
         </div>
       </div>
-
-
-      <!-- Comienza footer -->
-         <footer class="container-fluid footer">
-           <div class="row">
-             <div class="col text-center mt-2">
-               <img src="" alt="Logo" height="23">
-             </div>
-           </div>
-           <div class="row mt-2">
-             <div class="col">
-               <span class="font-weight-bold d-block text-left mb-1 fs">FURNITURE</span>
-               <a href="#" class="d-block text-left  mb-1 fs">Living-Room</a>
-               <a href="css/views/houses.html" class="d-block text-left mb-1  fs">Dinning-Room</a>
-               <a href="css/views/characters.html" class="d-block text-left mb-1  fs">Studio</a>
-               <a href="css/views/shows.html" class="d-block text-left mb-1 fs">Bedroom</a>
-               <a href="css/views/books.html" class="d-block text-left mb-1  fs">Outdoor-Furniture</a>
-             </div>
-             <div class="col">
-               <span class="font-weight-bold d-block text-left mb-1 fs">LEARN MORE!</span>
-               <a href="#" class="d-block text-left mb-1  fs">About us</a>
-               <a href="#" class="d-block text-left mb-1 fs">Contact</a>
-               <a href="#" class="d-block text-left mb-1 fs">FAQ</a>
-               <a href="#" class="d-block text-left mb-1 fs">Visit our blog!</a>
-             </div>
-             <div class="col">
-               <span class="font-weight-bold d-block text-left mb-1 fs">KEEP IN TOUCH</span>
-               <a href="#" class="d-block text-left mb-1 ">
-                 <i class="fab fa-twitter-square"></i>
-               </a>
-               <a href="#" class="d-block text-left mb-1">
-                 <i class="fab fa-facebook-square"></i>
-               </a>
-               <a href="#" class="d-block text-left mb-1 ">
-                 <i class="fab fa-instagram"></i>
-               </a>
-             </div>
-           </div>
-           <div class="row nopadding mt-2">
-             <h6 class="d-block mx-auto col-6 offset-3">Do you want to keep with the trends and be the first to know about our incredible offers?</h6>
-             <h5 class="col-6 offset-3"> Subscribe to our newsletter!</h5>
-           </div>
-           <div class="input-group mb-3 col-6 offset-3 mt-2">
-             <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
-             <div class="input-group-append">
-               <span class="input-group-text" id="basic-addon2">@example.com</span>
-             </div>
-           </div>
-         </footer>
-         <!-- Termina Footer -->
-
+      <!-- Comienza sección furniture -->
+      <div class="container-fluid">
+        <h1>Furniture</h1>
+        <h2 class="ftitle mt-2">Sofas</h2>
+        <div class="row nopadding mt-3">
+        <div class="col furniturecontainer">
+          <img src="../assets/images/sofa1a.jpg" class="furniture" alt="">
+          <h3>Sofa Traventino</h3>
+          <span><strong> Precio: </strong> $7,000 MXN </span>
+          <span class="d-block"> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
+        </div>
+      <div class="col furniturecontainer">
+          <img src="../assets/images/sofa2a.jpg" class="furniture" alt="">
+          <h3>Sofa Lapislázuli</h3>
+          <span><strong> Precio: </strong> $7,000 MXN </span>
+          <span class="d-block"> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
+        </div>
+      <div class="col furniturecontainer">
+          <img src="../assets/images/sofa3a.jpg" class="furniture" alt="">
+          <h3>Sofa Oeste</h3>
+          <span><strong> Precio: </strong> $7,000 MXN </span>
+          <span class="d-block"> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
+        </div>
+      </div>
+      <div class="row nopadding">
+        <div class="col furniturecontainer">
+            <img src="../assets/images/sofa5a.jpg" class="furniture" alt="">
+            <h3>Sofa Traventino</h3>
+            <span><strong> Precio: </strong> $7,000 MXN </span>
+            <span class="d-block"> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
+          </div>
+        <div class="col furniturecontainer">
+            <img src="../assets/images/sofa6a.jpg" class="furniture" alt="">
+            <h3>Sofa Lapislázuli</h3>
+            <span><strong> Precio: </strong> $7,000 MXN </span>
+            <span class="d-block"> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
+          </div>
+        <div class="col furniturecontainer">
+            <img src="../assets/images/sofa7a.jpg" class="furniture" alt="">
+            <h3>Sofa Oeste</h3>
+            <span><strong> Precio: </strong> $7,000 MXN </span>
+            <span class="d-block"> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
+          </div>
+      </div>
+      </div>
+    
+    <!-- Comienza footer -->
+      <footer class="container-fluid">
+        <div class="row">
+          <div class="col text-center mt-2">
+            <img src="" alt="Logo" height="23">
+          </div>
+        </div>
+        <div class="row mt-2">
+          <div class="col ">
+            <span class="font-weight-bold d-block text-left mb-1 fs">FURNITURE</span>
+            <a href="#" class="d-block text-left mb-1 fs link">Living-Room</a>
+            <a href="css/views/houses.html" class="d-block text-left mb-1  fs link">Dinning-Room</a>
+            <a href="css/views/characters.html" class="d-block text-left mb-1  fs link">Studio</a>
+            <a href="css/views/shows.html" class="d-block text-left mb-1 fs link">Bedroom</a>
+            <a href="css/views/books.html" class="d-block text-left mb-1  fs link">Outdoor-Furniture</a>
+          </div>
+          <div class="col">
+            <span class="font-weight-bold d-block text-left mb-1 fs ">LEARN MORE!</span>
+            <a href="#" class="d-block text-left mb-1  fs link">About us</a>
+            <a href="#" class="d-block text-left mb-1 fs link">Contact</a>
+            <a href="#" class="d-block text-left mb-1 fs link">FAQ</a>
+            <a href="#" class="d-block text-left mb-1 fs link">Visit our blog!</a>
+          </div>
+          <div class="col">
+            <span class="font-weight-bold d-block text-left mb-1 fs">KEEP IN TOUCH</span>
+            <a href="https://twitter.com/" class="d-block text-left mb-1 link">
+              <i class="fab fa-twitter-square"></i>
+            </a>
+            <a href="https://www.facebook.com/" class="d-block text-left mb-1 link">
+              <i class="fab fa-facebook-square"></i>
+            </a>
+            <a href="https://www.instagram.com/" class="d-block text-left mb-1 link">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+        <div class="row nopadding mt-2">
+          <h6 class="d-block mx-auto col-6 offset-3">Do you want to keep with the trends and be the first to know about our incredible offers?</h6>
+          <h5 class="col-6 offset-3"> Subscribe to our newsletter!</h5>
+        </div>
+        <div class="input-group mb-3 col-6 offset-3 mt-2">
+          <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+          <div class="input-group-append">
+            <span class="input-group-text" id="basic-addon2">@example.com</span>
+          </div>
+        </div>
+      </footer>
+      <!-- Termina Footer -->
 
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js">
