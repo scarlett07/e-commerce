@@ -12,64 +12,147 @@
   </head>
   <body>
     <!-- Navbar-->
-    <div class="row">
-      <div class="col">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="index.html">Logo</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a id="home"class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-              </li>
-            </ul>
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <i id="cart"class="fas fa-shopping-cart"></i>
-                  <span id="counter" class="badge badge-info">0</span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a id="search"class="nav-link btn btn-success" href="views/search.html">Search</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-    </div>
-
-
-
-    <!--Footer-->
-    <div class="row">
-      <div class="col">
-        <footer>
-          <div class="cont"id="first-cont">
-            <a id="logo" class="navbar-brand" href="index.html">Logo</a>
-            <div class="icons">
-              <a class="icons" href="https://www.facebook.com/"> <i class="fab fa-facebook-f"></i></a>
-              <a class="icons" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
-              <a class="icons" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Logo</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a id="home"class="nav-link" href="../index.html">Home<span class="sr-only">(current)</span></a>
+                  </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">
+                      <i id="cart"class="fas fa-shopping-cart"></i>
+                      <span id="counter" class="badge badge-info">1</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a id="search"class="nav-link btn btn-success" href="views/search.html">Search</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-          </div>
-          <div class="cont"id="second-cont">
-            <h6>About blog</h6>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-          <div class="cont" id="third-cont">
-            <div class="input-group mb-3">
-              <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
-              <div class="input-group-append">
-                <span class="input-group-text" id="basic-addon2">@example.com</span>
+          </nav>
+
+          <!-- checkout (no es oficial, sólo es una idea de cómo podría ir) (darle click al carrito) -->
+          <div class="row justify-content-end">
+            <div class="col-2">
+              <div class="collapse multi-collapse" id="multiCollapseExample1">
+                <div class="card card-body">
+                    <img class="img-fluid" src="../assets/images/e-commerce/cajon1a.jpg" alt="cajon">
+                    <span> Cajón </span>
+                    <span> Color: negro </span>
+                    <span> Precio: $1700 MXN</span>
+                    <button type="button"> Paypal </button>
+                </div>
               </div>
             </div>
           </div>
-        </footer>
+
+          <!-- contenido principal -->
+          <div class="container">
+            <div class="row">
+              <div  class="col-2">
+                <img class="img-fluid" src="../assets/images/e-commerce/cajon1a.jpg" alt="cajon">
+                <img class="img-fluid" src="../assets/images/e-commerce/cajon1a.jpg" alt="cajon">
+                <img class="img-fluid" src="../assets/images/e-commerce/cajon1a.jpg" alt="cajon">
+                <img class="img-fluid" src="../assets/images/e-commerce/cajon1a.jpg" alt="cajon">
+              </div>
+              <div class="col">
+                  <img class="img-fluid" src="../assets/images/e-commerce/cajon1a.jpg" alt="cajon">
+              </div>
+              <div class="col">
+                  <h2> Cajones </h2>
+                  <h5> Descripción </h5>
+                  <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae ducimus accusantium in eius, iste quae quos deleniti quasi explicabo quis id recusandae praesentium, unde, quisquam ab perspiciatis a porro suscipit! </p>
+                  <span><strong> Precio: </strong> $7,000 MXN </span>
+                  <h6><strong>  Opiniones: </strong></h6>
+                  <i class="fa fa-star fa-2x"></i><i class="fa fa-star fa-2x"></i><i class="fa fa-star fa-2x"></i><i class="fa fa-star fa-2x"></i><i class="fa fa-star fa-2x"></i>
+                  <p><button class="btn btn-primary" type="button"> Agregar al carrito </button></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- productos de interés-->
+          <div class="container">
+            <div class="row">
+              <h2> Productos que quizá te interesen </h2>
+            </div>
+            <div class="row">
+              <div class="col">
+                <img class="img-fluid" src="../assets/images/e-commerce/cama1a.jpg" alt="cama">
+              </div>
+              <div class="col">
+                <img class="img-fluid" src="../assets/images/e-commerce/cama1a.jpg" alt="cama">
+              </div>
+              <div class="col">
+                <img class="img-fluid" src="../assets/images/e-commerce/cama1a.jpg" alt="cama">
+              </div>
+              <div class="col">
+                <img class="img-fluid" src="../assets/images/e-commerce/cama1a.jpg" alt="cama">
+              </div>
+            </div>
+          </div>
+
+
+    <!--Footer-->
+    <footer> 
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+              <a id="logo" class="navbar-brand" href="index.html"> Logo </a>
+          </div> 
+        </div>
+        <div class="row">
+          <div class="col">
+              <a class="icons" href="https://www.facebook.com/"> <i class="fab fa-facebook-f fa-2x"></i></a>
+              <a class="icons" href="https://www.instagram.com/"><i class="fab fa-instagram fa-2x"></i></a>
+              <a class="icons" href="https://twitter.com/"><i class="fab fa-twitter fa-2x"></i></a>
+          </div>
+          <div class="col">
+            <p> Contact Us </p>
+            <a href="#"> nosotras@gmail.com </a>
+            <p> Del. Cuahutémoc 
+              Col. Durango
+              Calle: Tonalá 30
+            </p>
+            <p> +52 551 234 5678</p>
+          </div>
+          <div class="col">
+            <p> Suscríbete ahora </p>
+            <form> 
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
       </div>
-    </div>
+      <!--<div class="cont"id="first-cont">
+        <a id="logo" class="navbar-brand" href="index.html">Logo</a>
+        <div class="icons">
+          <a class="icons" href="https://www.facebook.com/"> <i class="fab fa-facebook-f"></i></a>
+          <a class="icons" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+          <a class="icons" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+      <div class="cont"id="second-cont">
+        <h6>About blog</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <div class="cont" id="third-cont">
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+          <div class="input-group-append">
+            <span class="input-group-text" id="basic-addon2">@example.com</span>
+          </div>
+        </div>
+      </div>-->
+    </footer>
 
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js">
