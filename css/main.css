@@ -2,17 +2,12 @@ body{
   background: #fcfaf9;
   color: #436269;
   font-family: 'Encode Sans Semi Condensed', sans-serif;
-  max-width: 92%;
-  text-align: center;
 }
 
 footer{
   background-color: #436269;
   font-family: 'Encode Sans Semi Condensed', sans-serif;
   color: #fff;
-  height: 40vh;
-  margin-top: 5%;
-  width: 109%;
 }
 
 #home{
@@ -38,12 +33,6 @@ color: #0aac9a;
 
 .badge{
   background-color: #436269;
-}
-
-.navbar{
-  position: fixed;
-  width: 100%;
-  z-index: 999;
 }
 
 #logo{
