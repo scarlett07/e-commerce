@@ -10,9 +10,9 @@
   <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/home.css">
-
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- Navbar -->
+    <nav id="nav" class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">Logo</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -20,11 +20,26 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
+          <ul class="navbar-nav text-faded">
             <li class="nav-item active">
               <a id="home" class="nav-link" href="index.html">Home
                 <span class="sr-only">(current)</span>
               </a>
+            </li>
+            <li class="nav-item links">
+              <a id="living" class="nav-link " href="views/espacio.html">Living Room</a>
+            </li>
+            <li class="nav-item links">
+              <a id="bedroom" class="nav-link " href="views/espacio.html">Bedroom</a>
+            </li>
+            <li class="nav-item links">
+              <a id="dinning"class="nav-link " href="views/espacio.html">Dinning Room</a>
+            </li>
+            <li class="nav-item links">
+              <a id="outdoor"class="nav-link " href="views/espacio.html">Outdoors</a>
+            </li>
+            <li class="nav-item links">
+              <a id="studio"class="nav-link " href="views/espacio.html">Studio</a>
             </li>
           </ul>
           <ul class="navbar-nav ml-auto">
@@ -41,6 +56,10 @@
         </div>
       </div>
     </nav>
+
+
+
+
     <div class="container-fluid nopadding">
       <!-- Carousel -->
       <div class="row nopadding">
@@ -73,6 +92,7 @@
           </div>
         </div>
       </div>
+
       <!-- Info -->
       <div class="row nopadding">
         <div class="col nopadding">
@@ -86,7 +106,7 @@
         </div>
       </div>
 
-      <!-- Categorias -->
+      <!-- Categories -->
       <div class="row nopadding mb-5">
         <div class="col nopadding mb-5">
           <section id="categories" class="mt-2  p-4">
@@ -104,6 +124,7 @@
         </div>
       </div>
 
+      <!-- Best Seller`s -->
       <h1>Best Seller's</h1>
       <h6 class="mt-2">Check this items, they're on fire!</h6>
       <div class="container-fluid mt-5">
@@ -197,7 +218,6 @@
           </div>
         </div>
       </div>
-      <!--Footer-->
 
       <!-- Comienza footer -->
       <footer class="container-fluid footer">
@@ -207,30 +227,30 @@
           </div>
         </div>
         <div class="row mt-2">
-          <div class="col">
+          <div class="col footer ">
             <span class="font-weight-bold d-block text-left mb-1 fs">FURNITURE</span>
-            <a href="#" class="d-block text-left  mb-1 fs">Living-Room</a>
-            <a href="css/views/houses.html" class="d-block text-left mb-1  fs">Dinning-Room</a>
-            <a href="css/views/characters.html" class="d-block text-left mb-1  fs">Studio</a>
-            <a href="css/views/shows.html" class="d-block text-left mb-1 fs">Bedroom</a>
-            <a href="css/views/books.html" class="d-block text-left mb-1  fs">Outdoor-Furniture</a>
+            <a href="#" class="d-block text-left mb-1 fs link">Living-Room</a>
+            <a href="css/views/houses.html" class="d-block text-left mb-1  fs link">Dinning-Room</a>
+            <a href="css/views/characters.html" class="d-block text-left mb-1  fs link">Studio</a>
+            <a href="css/views/shows.html" class="d-block text-left mb-1 fs link">Bedroom</a>
+            <a href="css/views/books.html" class="d-block text-left mb-1  fs link">Outdoor-Furniture</a>
           </div>
-          <div class="col">
-            <span class="font-weight-bold d-block text-left mb-1 fs">LEARN MORE!</span>
-            <a href="#" class="d-block text-left mb-1  fs">About us</a>
-            <a href="#" class="d-block text-left mb-1 fs">Contact</a>
-            <a href="#" class="d-block text-left mb-1 fs">FAQ</a>
-            <a href="#" class="d-block text-left mb-1 fs">Visit our blog!</a>
+          <div class="col footer">
+            <span class="font-weight-bold d-block text-left mb-1 fs ">LEARN MORE!</span>
+            <a href="#" class="d-block text-left mb-1  fs link">About us</a>
+            <a href="#" class="d-block text-left mb-1 fs link">Contact</a>
+            <a href="#" class="d-block text-left mb-1 fs link">FAQ</a>
+            <a href="#" class="d-block text-left mb-1 fs link">Visit our blog!</a>
           </div>
-          <div class="col">
+          <div class="col footer">
             <span class="font-weight-bold d-block text-left mb-1 fs">KEEP IN TOUCH</span>
-            <a href="#" class="d-block text-left mb-1 ">
+            <a href="https://twitter.com/" class="d-block text-left mb-1 link">
               <i class="fab fa-twitter-square"></i>
             </a>
-            <a href="#" class="d-block text-left mb-1">
+            <a href="https://www.facebook.com/" class="d-block text-left mb-1 link">
               <i class="fab fa-facebook-square"></i>
             </a>
-            <a href="#" class="d-block text-left mb-1 ">
+            <a href="https://www.instagram.com/" class="d-block text-left mb-1 link">
               <i class="fab fa-instagram"></i>
             </a>
           </div>
