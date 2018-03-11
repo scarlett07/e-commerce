@@ -4,6 +4,11 @@ body{
   font-family: 'Encode Sans Semi Condensed', sans-serif;
 }
 
+.nopadding{
+  margin: 0; 
+  padding: 0;
+}
+
 footer{
   background-color: #436269;
   font-family: 'Encode Sans Semi Condensed', sans-serif;
@@ -50,3 +55,8 @@ color: #0aac9a;
 .icons:hover{
   color: #0aac9a;
 }
+
+footer{
+  background-color: #436269;
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
+  color: #fff;}
