@@ -1,0 +1,63 @@
+body{
+  background: #fcfaf9;
+  color: #436269;
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
+  max-width: 92%;
+  text-align: center;
+}
+
+footer{
+  background-color: #436269;
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
+  color: #fff;
+  height: 40vh;
+  margin-top: 5%;
+  width: 109%;
+}
+
+#home{
+color: #0aac9a;
+}
+
+#cart{
+  font-size: 120%;
+  color: #0aac9a;
+}
+
+#search{
+  background-color: #0aac9a;
+  border:#0aac9a;
+  color: #fff;
+}
+
+.button{
+  background-color: #0aac9a;
+  border:#0aac9a;
+  color: #fff;
+}
+
+.badge{
+  background-color: #436269;
+}
+
+.navbar{
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+
+#logo{
+  font-size: 200%;
+}
+
+.cont{
+  display: inline-block;
+}
+
+.icons{
+  color: #fff;
+}
+
+.icons:hover{
+  color: #0aac9a;
+}
