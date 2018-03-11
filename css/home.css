@@ -1,0 +1,67 @@
+
+.carousel-inner{
+  height: 70vh;
+  margin-left: 5%;
+  margin-top: 3%;
+  width: 100%;
+}
+
+#info-container{
+  text-align: center;
+  margin-top: 3%;
+  margin-left: 10%;
+}
+
+
+#categories{
+  margin-left: 7%;
+  margin-top: 5%;
+}
+
+#jardín-cont{
+  background-color: #436269;
+  height: 90vh;
+
+}
+
+#comedor-cont{
+  background-color: #f7e0d9;
+  height: 40vh;
+}
+
+#sala-cont{
+  background-color: #0aac9a;
+  height: 50vh;
+}
+
+#recamara-cont{
+  background-color: #99b195;
+  height: 50vh;
+}
+
+.carousel-cont{
+  margin-left: 5%;
+  margin-top: 5%;
+  text-align: center;
+}
+
+#mini{
+  height: 20vh;
+  margin-left: 5%;
+  margin-top: 15%;
+  width: 30%;
+}
+
+.blog-cont{
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.tips{
+  display: inline-block;
+  margin: 10%;
+}
+
+.blog-img{
+  border-radius: 100%;
+}
