@@ -1,3 +1,7 @@
+body {
+  text-align: center;
+}
+
 #car-row {
   width: 100vh;
 }
